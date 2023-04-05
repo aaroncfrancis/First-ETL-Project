@@ -42,3 +42,4 @@ df.to_csv('s&p500 cleaned',index=False)
 figure = px.line(title='Stock Chart')
 figure.add_scatter(x=df.index, y=df['net'], mode='lines')
 figure.show()
+
