@@ -18,8 +18,8 @@ print(df[['Name','date','close']])
 print(df.iloc[2,0])
 
 """read each row but only include certain columns"""
-for index, row in df.iterrows():
-    print(index,row[['Name','date','open','close']])
+# for index, row in df.iterrows():
+#     print(index,row[['Name','date','open','close']])
 
 """delete columns that won't be used"""
 df = df.drop('volume', axis=1)
